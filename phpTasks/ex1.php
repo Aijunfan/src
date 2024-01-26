@@ -51,9 +51,5 @@
     <img src="image/24.png" alt="web development enviroment"> 
     
 
-    <?php 
-
-    ?>
-
 </body>
 </html>
