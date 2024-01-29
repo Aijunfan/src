@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,7 @@
     <title>Exercise 1: Getting Started with PHP - Aijun Fan</title>
 </head>
 <body>
+    
     <h3>3.1Write PHP code to output the following message:
         Hello world! My name is "David"</h3>
     <?php
@@ -48,7 +50,7 @@
     </table>
 
     <h3>3.4 Take a screenshot that confirms your development environment setup and include it as an image in the "ex1.php" file.</h3>
-    <img src="image/24.png" alt="web development enviroment"> 
+    <img src="images/24.png" alt="web development enviroment"> 
     
 
 </body>
