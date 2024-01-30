@@ -1,5 +1,5 @@
 <?php 
-$title = "Exercise 1";
+$title = "Exercise 1 Page";
 include 'header.php';?>
 
 <body>
@@ -46,7 +46,7 @@ include 'header.php';?>
     </table>
 
     <h3>3.4 Take a screenshot that confirms your development environment setup and include it as an image in the "ex1.php" file.</h3>
-    <img src="phpTasks\images\24.png" alt="web development enviroment" width="800" height="200"> 
+    <img src="image\24.png" alt="web development enviroment" width="800" height="200"> 
     
 
 </body>

@@ -1,5 +1,5 @@
 <?php 
-$title = "This is another title";
+$title = "New One Page";
 include'header.php'; ?>
 
 <h2>Hello world this a new page</h2>
