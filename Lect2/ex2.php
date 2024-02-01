@@ -10,5 +10,4 @@ include 'header.php';?>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dignissimos non expedita totam incidunt suscipit natus neque. Assumenda adipisci enim sunt, dolorum voluptatem voluptate iusto veniam aliquam quae iste cum.</p>
 </body>
 
-
 <?php include 'footer.php';?>

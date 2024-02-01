@@ -7,4 +7,12 @@ include'header.php'; ?>
 
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, id explicabo non minus, reprehenderit cumque quidem debitis doloribus voluptatum corporis vel ad alias ratione, deleniti quam? Praesentium accusamus illo voluptates.</p>
 
+<!-- 3.8  -->
+<?php
+    $filename = __FILE__;
+    $lastModifiedTime = filemtime($filename);
+    $formattedTime = date('Y-m-d H:i:s', $lastModifiedTime);
+    $baseFilename = basename($filename);
+?>
+
 <?php include 'footer.php';?>
