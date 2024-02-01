@@ -86,30 +86,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 <h2>3.6 Number Addition: Write a script to add up the numbers: 298, 234, 46. Use variables 
     to store these numbers and an echo statement to output your answer.</h2>
 <?php
-$num1 = 298;
-$num2 = 234;
-$num3 = 46;
-$sum = $num1 + $num2 + $num3;
-echo "The sum of $num1, $num2, $num3 is $sum ";
+    $num1 = 298;
+    $num2 = 234;
+    $num3 = 46;
+    $sum = $num1 + $num2 + $num3;
+    echo "The sum of $num1, $num2, $num3 is $sum ";
 ?>   
 
 <h2>3.7 Browser Detection: Write a PHP script to detect the browser being used to view your pages. 
     Hint: Use predefined variables: $_SERVER.</h2>
 <?php
-$userAgent = $_SERVER['HTTP_USER_AGENT'];
-// echo "UserAgent: $userAgent";
-if (strpos($userAgent, 'MSIE') !== false || strpos($userAgent, 'Trident/') !== false) {
-    $browser = 'Internet Explorer';
-} elseif (strpos($userAgent, 'Firefox') !== false) {
-    $browser = 'Mozilla Firefox';
-} elseif (strpos($userAgent, 'Chrome') !== false) {
-    $browser = 'Google Chrome';
-} elseif (strpos($userAgent, 'Opera') !== false || strpos($userAgent, 'OPR/') !== false) {
-    $browser = 'Opera';
-} else {
-    $browser = 'Unknown';
-}
-echo "<br>You are using: $browser<br>";
+    $userAgent = $_SERVER['HTTP_USER_AGENT'];
+    // echo "UserAgent: $userAgent";
+    if (strpos($userAgent, 'MSIE') !== false || strpos($userAgent, 'Trident/') !== false) {
+        $browser = 'Internet Explorer';
+    } elseif (strpos($userAgent, 'Firefox') !== false) {
+        $browser = 'Mozilla Firefox';
+    } elseif (strpos($userAgent, 'Chrome') !== false) {
+        $browser = 'Google Chrome';
+    } elseif (strpos($userAgent, 'Opera') !== false || strpos($userAgent, 'OPR/') !== false) {
+        $browser = 'Opera';
+    } else {
+        $browser = 'Unknown';
+    }
+    echo "<br>You are using: $browser<br>";
 ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
