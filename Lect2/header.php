@@ -27,7 +27,7 @@
             <div><a href="ex1.php">Exercise 1</a></div>
             <div><a href="ex2.php">Exercise 2</a></div>
             <div><a href="ex3.php">Exercise 3</a></div>
-            <div><a href=#>Exercise 4</a></div>
+            <div><a href="ex4.php">Exercise 4</a></div>
             <div><a href="contactus.php">Contact Us</a></div>
             <div><a href="aboutus.php">About Us</a></div>
         
