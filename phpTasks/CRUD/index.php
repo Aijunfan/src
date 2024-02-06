@@ -1,3 +1,9 @@
+<?php
+include '../Lect2/header.php';
+
+?>
+
+
 <h2>Input Your Information Below:</h2>
 <form name="form1" method="post" action="process.php">
     <div class="form-group">
